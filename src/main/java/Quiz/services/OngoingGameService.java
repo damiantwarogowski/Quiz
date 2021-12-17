@@ -12,7 +12,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+import org.springframework.web.context.annotation.SessionScope;
 
+@SessionScope
 @Service
 @Log
 public class OngoingGameService {
